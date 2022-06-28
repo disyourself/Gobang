@@ -1,0 +1,7 @@
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
+aux_source_directory(./ DIR_LIB_SRCS)
+
+add_library(SRCS ${DIR_LIB_SRCS})
+
+

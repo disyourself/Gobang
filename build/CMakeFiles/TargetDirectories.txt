@@ -1,0 +1,6 @@
+D:/work/VScode/C/Gobang/build/CMakeFiles/Gobang.dir
+D:/work/VScode/C/Gobang/build/CMakeFiles/edit_cache.dir
+D:/work/VScode/C/Gobang/build/CMakeFiles/rebuild_cache.dir
+D:/work/VScode/C/Gobang/build/src/CMakeFiles/SRCS.dir
+D:/work/VScode/C/Gobang/build/src/CMakeFiles/edit_cache.dir
+D:/work/VScode/C/Gobang/build/src/CMakeFiles/rebuild_cache.dir
