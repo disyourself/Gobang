@@ -1,0 +1,2 @@
+
+../bin/Gobang.exe

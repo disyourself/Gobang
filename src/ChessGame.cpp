@@ -1,5 +1,4 @@
 #include "../include/ChessGame.h"
-#include <wincontypes.h>
 
 ChessGame::ChessGame (Man *man, AI *ai, Chess *chess)
 {
@@ -8,6 +7,7 @@ ChessGame::ChessGame (Man *man, AI *ai, Chess *chess)
     this->chess = chess;
 
     man->init (chess);
+    ai->init (chess);
 }
 
 void

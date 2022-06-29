@@ -277,4 +277,63 @@ src/CMakeFiles/SRCS.dir/man.cpp.obj: D:/work/VScode/C/Gobang/src/man.cpp \
  C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
  C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
- C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+ C:/MINGW64/x86_64-w64-mingw32/include/wchar.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/MINGW64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/stdint.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+ C:/MINGW64/x86_64-w64-mingw32/include/locale.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/stdio.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+ C:/MINGW64/x86_64-w64-mingw32/include/wctype.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc

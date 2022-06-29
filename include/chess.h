@@ -9,6 +9,8 @@ struct ChessPos
 {
     int row;
     int col;
+    ChessPos () {}
+    ChessPos (int r, int c) : row (r), col (c) {}
 };
 
 enum chess_kind_t
@@ -48,4 +50,11 @@ class Chess
     int getGradeSize ();
 
     bool checkOver ();
+
+    void updateGameMap (ChessPos *pos);
+
+    int getChessData (int row, int col);
+
+  public:
+    void printMap ();
 };

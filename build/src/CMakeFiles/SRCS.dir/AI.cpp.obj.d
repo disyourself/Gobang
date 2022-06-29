@@ -277,4 +277,8 @@ src/CMakeFiles/SRCS.dir/AI.cpp.obj: D:/work/VScode/C/Gobang/src/AI.cpp \
  C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
  C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
- C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
+ C:/MINGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ C:/MINGW64/x86_64-w64-mingw32/include/time.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/MINGW64/x86_64-w64-mingw32/include/pthread_time.h

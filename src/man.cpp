@@ -1,4 +1,5 @@
 #include "../include/man.h"
+#include <iostream>
 
 void
 Man::init (Chess *chess)
