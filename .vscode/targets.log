@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 29 12:17:09 2022
+# Make data base, printed on Thu Jun 30 12:29:16 2022
 
 # Variables
 
@@ -24,6 +24,8 @@ QTMSBUILD = C:\Users\Administrator\AppData\Local\QtMsBuild
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
 CUDA_PATH_V11_6 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+# environment
+NODE_TLS_REJECT_UNAUTHORIZED = 0
 # default
 .SHELLFLAGS := -c
 # makefile
@@ -61,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = D:\Program Files\Microsoft\Microsoft VS Code Insiders
+VSCODE_CWD = D:\work\VScode
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
@@ -95,7 +97,7 @@ NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_39140_AMBXXJVWQAORWOWR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10972_KSLDZOMITZXQNRIQ
 # environment
 COMPUTERNAME = GODOT
 # environment
@@ -113,7 +115,7 @@ PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Administrator\AppData\Roaming\Code - Insiders\CachedData\e7751367f79f327b8103bee33a07c16817a2c7cd
+VSCODE_CODE_CACHE_PATH = C:\Users\Administrator\AppData\Roaming\Code - Insiders\CachedData\0e3304bca9e862eddc7e437e2bab8a4a4a4f33c9
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -207,11 +209,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 39140
+VSCODE_PID = 10972
 # environment
 USERDOMAIN_ROAMINGPROFILE = GODOT
 # variable set hash-table stats:
-# Load=99/1024=10%, Rehash=0, Collisions=17/117=15%
+# Load=100/1024=10%, Rehash=0, Collisions=17/118=14%
 
 # Pattern-specific Variable Values
 
@@ -284,6 +286,6 @@ GNUmakefile:
 # strcache performance: lookups = 22 / hit rate = 9%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/22=5%
-# Finished Make data base on Wed Jun 29 12:17:09 2022
+# Finished Make data base on Thu Jun 30 12:29:16 2022
 
  

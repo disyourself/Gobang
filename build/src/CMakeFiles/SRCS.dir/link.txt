@@ -1,2 +1,0 @@
-C:/MINGW64/bin/ar.exe qc ../../lib/libSRCS.a CMakeFiles/SRCS.dir/AI.cpp.obj CMakeFiles/SRCS.dir/ChessGame.cpp.obj CMakeFiles/SRCS.dir/chess.cpp.obj CMakeFiles/SRCS.dir/man.cpp.obj
-C:/MINGW64/bin/ranlib.exe ../../lib/libSRCS.a

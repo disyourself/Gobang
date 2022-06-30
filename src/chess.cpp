@@ -1,7 +1,10 @@
 #include "../include/chess.h"
 #include "mmsystem.h"
 #include <cmath>
+#include <conio.h>
 #include <iostream>
+#include <stdio.h>
+#include <synchapi.h>
 #include <winuser.h>
 
 
@@ -192,6 +195,7 @@ Chess::clickBoard (int x, int y, ChessPos *pos)
 void
 Chess::chessDown (ChessPos *pos, chess_kind_t kind)
 {
+    mciSendStringA ("play ../res/down7.wav", 0, 0, 0);
     int x = margin_x + chessSize * pos->col - chessSize / 2;
     int y = margin_x + chessSize * pos->row - chessSize / 2;
 
@@ -212,8 +216,95 @@ Chess::getGradeSize ()
 }
 
 bool
+Chess::checkWin ()
+{
+    int row = lastPos.row;
+    int col = lastPos.col;
+
+    // horizontal
+    for (int i = 0; i < 5; i++)
+    {
+        if (col - i >= 0 && col - i + 4 < gradeSize
+            && chessMap[row][col - i] == chessMap[row][col - i + 1]
+            && chessMap[row][col - i] == chessMap[row][col - i + 2]
+            && chessMap[row][col - i] == chessMap[row][col - i + 3]
+            && chessMap[row][col - i] == chessMap[row][col - i + 4])
+        {
+            printf ("horizontal win\n");
+            return true;
+        }
+    }
+
+    // vertical
+    for (int i = 0; i < 5; ++i)
+    {
+        if (row - i >= 0 && row - i + 4 < gradeSize
+            && chessMap[row - i][col] == chessMap[row - i + 1][col]
+            && chessMap[row - i][col] == chessMap[row - i + 2][col]
+            && chessMap[row - i][col] == chessMap[row - i + 3][col]
+            && chessMap[row - i][col] == chessMap[row - i + 4][col])
+        {
+            printf ("vertical win\n");
+            return true;
+        }
+    }
+
+    // "/" forwardslash direction
+    for (int i = 0; i < 5; ++i)
+    {
+        if (row - i < gradeSize && row - i - 4 >= 0
+            && col - i >= 0 && col - i + 4 < gradeSize
+            && chessMap[row - i][col - i] == chessMap[row - i + 1][col - i + 1]
+            && chessMap[row - i][col - i] == chessMap[row - i + 2][col - i + 2]
+            && chessMap[row - i][col - i] == chessMap[row - i + 3][col - i + 3]
+            && chessMap[row - i][col - i] == chessMap[row - i + 4][col - i + 4])
+        {
+            printf ("forwarslash win\n");
+            return true;
+        }
+    }
+
+    // "\" backslash direction
+    for (int i = 0; i < 5; ++i)
+    {
+        if (row - i >= 0 && row - i + 4 < gradeSize
+            && col - i >= 0 && col - i + 4 < gradeSize
+            && chessMap[row - i][col - i] == chessMap[row - i + 1][col - i + 1]
+            && chessMap[row - i][col - i] == chessMap[row - i + 2][col - i + 2]
+            && chessMap[row - i][col - i] == chessMap[row - i + 3][col - i + 3]
+            && chessMap[row - i][col - i] == chessMap[row - i + 4][col - i + 4])
+        {
+            printf ("backslash win\n");
+            return true;
+        }
+    }
+
+    return false;
+}
+
+bool
 Chess::checkOver ()
 {
+    if (checkWin ())
+    {
+        Sleep (1500);
+        if (playerFlag)
+        {
+            // white just chessed
+            mciSendStringA ("play ../res/Ê§°Ü.mp3", 0, 0, 0);
+            loadimage (0, "../res/Ê§°Ü.jpg");
+        }
+        else
+        {
+            // black just chessed
+            mciSendStringA ("play ../res/²»´í.mp3", 0, 0, 0);
+            loadimage (0, "../res/Ê¤Àû.jpg");
+        }
+
+        _getch ();
+
+        return true;
+    }
     return false;
 }
 
@@ -233,6 +324,7 @@ Chess::updateGameMap (ChessPos *pos)
 {
     chessMap[pos->row][pos->col] = playerFlag ? CHESS_BLACK : CHESS_WHITHE;
     playerFlag = !playerFlag;
+    lastPos = *pos;
 }
 
 int

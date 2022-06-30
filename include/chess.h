@@ -33,27 +33,26 @@ class Chess
 
     // map    0: null 1: black -1: white
     vector<vector<int>> chessMap;
+    bool                playerFlag; // true: black false: white
 
-    bool playerFlag; // true: black false: white
+  public:
+    ChessPos lastPos; // lateset chess position
 
   public:
     Chess (int gradesize, int marginX, int marginY, float chesssize);
 
   public:
     void init ();
-
     bool clickBoard (int x, int y, ChessPos *pos);
-
     void chessDown (ChessPos *pos, chess_kind_t kind);
-
     // get the size of board
-    int getGradeSize ();
-
+    int  getGradeSize ();
     bool checkOver ();
-
     void updateGameMap (ChessPos *pos);
+    int  getChessData (int row, int col);
 
-    int getChessData (int row, int col);
+  private:
+    bool checkWin ();
 
   public:
     void printMap ();

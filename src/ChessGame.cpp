@@ -1,5 +1,7 @@
 #include "../include/ChessGame.h"
-
+#include <conio.h>
+#include <iostream>
+#include <stdlib.h>
 ChessGame::ChessGame (Man *man, AI *ai, Chess *chess)
 {
     this->man = man;
@@ -30,5 +32,9 @@ ChessGame::play ()
             chess->init ();
             continue;
         }
+
+        if (_kbhit ())
+            if (_getch () == 'q')
+                exit (0);
     }
 }
