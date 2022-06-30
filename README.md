@@ -5,6 +5,7 @@ Rough game on windows implented by Easyx library.
 ````
 mkdir build && cd build
 cmake .. -G "Unix Makefiles"
+make
 ./bin/gobang.exe
 ````
 
